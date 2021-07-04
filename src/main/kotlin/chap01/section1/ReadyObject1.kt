@@ -24,5 +24,5 @@ class E {
     }
 }
 fun main(){
-    val e = E("Young",100,200)
+    val e = E("Young",100,300)
 }
