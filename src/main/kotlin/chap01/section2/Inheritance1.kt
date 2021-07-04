@@ -1,5 +1,6 @@
 package chap01
 
+//21.07.03 Sat
 //상속
 //open 키워드를 통한 선언
 ////부모클래스(기본클래스)에선 생성자 가 있으면 다 써줘야한다
@@ -8,7 +9,7 @@ package chap01
 //class  ChildClass : ParentClass(){
 
 open class Bird(var name: String, var wing: Int, var beak: String) {
-    open fun fly() {     //open 정의
+    open fun fly() {
         println("Bird의 fly")
     }
 }
@@ -42,5 +43,5 @@ fun main() {
     val lark_: Bird = Lark("myLark", 2, "short", "smile")
 
     lark.fly()
-    lark_.fly()
+    lark_.fly()  //Bird의 Fly메소드 호출을 위해선 그냥 Bird()를 호출해야한다
 }

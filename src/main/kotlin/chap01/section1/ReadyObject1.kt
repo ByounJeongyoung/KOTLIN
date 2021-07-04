@@ -1,3 +1,5 @@
+package chap01.section1
+
 class E {
     var name: String
     var age: Int = 1
