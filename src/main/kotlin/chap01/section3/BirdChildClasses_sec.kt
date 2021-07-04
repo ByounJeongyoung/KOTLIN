@@ -1,4 +1,4 @@
-package chap01.Section3
+package chap01.section3
 //다형성
 //
 //이름이 동일한 것처럼 보이지만 매개변수가 서로 다른 형태를 취하거나 실행 결과를 다르게 가질 수 있는 것을 다형성(polymorphism) 이라고 합니다.

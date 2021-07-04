@@ -1,4 +1,4 @@
-package chap01.Section3
+package chap01.section3
 
 
 open class A
