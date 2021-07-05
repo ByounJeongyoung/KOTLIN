@@ -1,4 +1,4 @@
-package chap03.section1
+package chap03.generic
 
 //String 과 String?는 다르다 널이 가능하려면 String? 해야한다
 //<T:Number> 이렇게 한정 할수있다

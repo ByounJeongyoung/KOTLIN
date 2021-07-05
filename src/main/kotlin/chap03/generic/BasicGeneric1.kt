@@ -1,4 +1,4 @@
-package chap03.section1
+package chap03.generic
 
 //ctrl + shift + p  형식 볼수있다
 //자료형이 결정되지 않음

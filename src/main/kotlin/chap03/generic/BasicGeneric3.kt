@@ -1,4 +1,4 @@
-package chap03.section1
+package chap03.generic
 //21.07.04 Sun
 // 3.제네릭 함수
 // 해당 함수나 메서드 앞쪽에서 <T>지정
