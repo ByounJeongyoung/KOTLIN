@@ -7,6 +7,7 @@ import java.util.*
 /* Array 클래스의 속성  읽어보기!
 public class Array<T> {
 
+     초기값으로 람다식 함수로 정의!
    1.public inline constructor(size: Int, init: (Int) -> T)
 
      * Returns the array element at the specified [index]. This method can be called using the
