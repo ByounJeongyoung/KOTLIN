@@ -28,7 +28,7 @@ public class Array<T> {
 }
 */
 fun main() {
-    val arr = arrayOf(1, 2, 3, 4, 5)
+    val arr = arrayOf(1, 3, 2, 8, 5)
 
     //get -> 가져오기
     println(arr.get(2))
@@ -40,8 +40,18 @@ fun main() {
         println(ele)
     }
 
-    println(Arrays.toString(arr))   //괄호 쳐서 정렬
+    println(arr.contentToString())   //괄호 쳐서 정렬
     println(arr.sum())
+    println("--------------------------")
+    arr.reverse(0,3)
+    println(arr.contentToString())
+    println("--------------------------")
+    val c = arr.sorted()
+    println(arr.contentToString())
+    for(int in c){
+        print(int)
+    }
+    println("--------------------------")
 
     //set 설정하기  -> index , value
     arr.set(1,8)

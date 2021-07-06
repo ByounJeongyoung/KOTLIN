@@ -26,7 +26,7 @@ fun main() {
     println("${c.average()}")
     println("${c.count()}")
 
-    //현재 배열의 변경이 이루어진 것일뿐 자료형을 보면 Unit이라는것을 알수있다
+
     //위 의 API는 기존의 값 자체를 두고 get하는것이라고 보면 될것이다
     with(c) {
         reversedArray().apply {
@@ -39,9 +39,21 @@ fun main() {
 
 
     val letters = arrayOf("i", "o", "k", "l", "t", "n")
-    letters.reverse(0, 3)    // iok만 변경  ,,현재 revese 된 것일뿐 자료형을 보면 Unit이라는것을 알수있다
-
-    //변수에 담은 새로운 배열이다 기존 배열은 이미 메모리에 올라가서 변경할수 없으므로..
+//    val letters2 = arrayOf("i", "o", "k", "l", "t", "n")
+//    val letters3 = arrayOf("i", "o", "k", "l", "t", "n")
+//    letters.reverse(0, 3)
+//    println("12. ${letters.reverse(0, 3)}")
+//    for(i in letters){
+//        println(i)
+//    }
+//    println("11. ${letters2.reversedArray()}")
+//    for(i in letters2){
+//        print(i)
+//    }
+//    println("12. ${letters3.reversed()}")
+//    for(i in letters3){
+//        println("222222${i}")
+//    }
 
     //값 꺼내는 방법 1    -> 정수 형
     for (num in letters) {
